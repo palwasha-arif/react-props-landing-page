@@ -10,7 +10,8 @@
   padding: 2rem;
   border: 1px solid var(--border);
   border-radius: 24px;
-  background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(15, 118, 110, 0.08));
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.18), rgba(15, 118, 110, 0.16), rgba(245, 158, 11, 0.14));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);
 }
 
 .eyebrow {
@@ -26,6 +27,7 @@
   max-width: 640px;
   margin: 0.75rem 0 1.5rem;
   font-size: 1.05rem;
+  color: #374151;
 }
 
 .hero-actions {
@@ -43,13 +45,15 @@
 }
 
 .primary-btn {
-  background: var(--accent);
+  background: linear-gradient(135deg, #7c3aed, #4338ca);
   color: white;
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.2);
 }
 
 .secondary-btn {
   border: 1px solid var(--border);
   color: var(--text-h);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .features-grid {
@@ -62,18 +66,18 @@
   padding: 1.4rem;
   border: 1px solid var(--border);
   border-radius: 18px;
-  background: white;
+  background: linear-gradient(180deg, #ffffff 0%, #fdf2f8 100%);
   box-shadow: var(--shadow);
 }
 
 .feature-card h3 {
   margin: 0.75rem 0 0.35rem;
-  color: var(--text-h);
+  color: #312e81;
 }
 
 .feature-card p {
   margin: 0;
-  color: var(--text);
+  color: #4b5563;
 }
 
 .feature-icon {
@@ -83,13 +87,23 @@
   height: 2.8rem;
   border-radius: 999px;
   font-size: 1.2rem;
-  background: color-mix(in srgb, var(--accent) 14%, white);
+  background: linear-gradient(135deg, var(--accent), #f59e0b);
+  color: white;
+  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.2);
 }
 
 .about-section {
   padding: 1.5rem 2rem;
   border-top: 1px solid var(--border);
   text-align: left;
+}
+
+.about-section h2 {
+  color: #312e81;
+}
+
+.about-section p {
+  color: #4b5563;
 }
 
 @media (max-width: 900px) {
